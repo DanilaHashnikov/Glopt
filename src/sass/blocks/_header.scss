@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__logo {
+        max-width: 95px;
+        max-height: 99px;
+    }
+    &__wrapper {
+        margin-left: 55px;
+    }
+    &__item {
+        font-size: 15px;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 0 14px 0 14px;
+        border-right: 1px dashed grey;
+        &:hover {
+            color: #ec644b;
+            text-decoration: underline;
+        }
+        &:nth-child(6) {
+            border-right: none;
+        }
+    }
+    &__questions_wrapper {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__questions {
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+    }
+    &__phone {
+        font-size: 19px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.promo {
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url(../img/bg_promo.png) center (center / cover) no-repeat;
+    width: 100%;
+    &__h2 {
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        padding-bottom: 26px;
+    }
+    &__title {
+        font-size: 72px;
+        font-weight: bold;
+        text-align: center;
+        color: #ec644b;
+        padding-bottom: 9px;
+    }
+    &__subtitle {
+        font-size: 42px;
+        font-weight: normal;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 38px;
+    }
+    &__line_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 180px 0 180px ;
+        hr {
+            height: 2px;
+            width: 45%;
+            background-color: white;
+        }
+    }
+    &__elipse {
+        width: 9px;
+        height: 9px;
+        margin: 0 12px 0 12px;
+        border-radius: 100%;
+        background-color: white;
+    }
+    &__advantages_img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 27px;
+    }
+    &__advantages_txt {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+        margin: 13px 0 39px 0;
+    }
+}

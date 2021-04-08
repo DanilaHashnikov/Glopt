@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    position: relative;
+}
 @import 'base/mixins';
 @import 'base/variables';
 @import 'blocks/promo';
@@ -9,9 +12,10 @@
 @import 'blocks/title';
 @import 'blocks/advantages';
 @import 'blocks/subtitle';
-@import 'blocks/agent';
-
-
+@import 'blocks/between';
+@import 'blocks/line';
+@import 'blocks/price';
+@import 'blocks/form';
 
 
 
